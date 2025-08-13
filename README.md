@@ -52,37 +52,37 @@ The modernized version uses Spring Boot for backend services, Thymeleaf for temp
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Sarah-Ribeiro/struts-spring-boot-legacy-code.git
-
-    Navigate into the project directory:
-
-cd modernized-struts-demo
-
-Build and run the application:
-
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd modernized-struts-demo
+   ```
+3. Build and run the application:
+   ```bash
     ./mvnw spring-boot:run
-
-Usage
+   ```
+## Usage
 
 Once the application is running, open your browser and go to:
 
 http://localhost:8080/username
 
-Project Goals
+## Project Goals
 
-    Replace outdated Struts 1.3 framework with a modern Spring Boot architecture
+- Replace outdated Struts 1.3 framework with a modern Spring Boot architecture
 
-    Utilize Java 21 features for cleaner and more efficient code
+- Utilize Java 21 features for cleaner and more efficient code
 
-    Improve maintainability and scalability
+- Improve maintainability and scalability
 
-    Enhance UI/UX with responsive design
+- Enhance UI/UX with responsive design
 
-    Leverage AI-assisted development for improved productivity
+- Leverage AI-assisted development for improved productivity
 
-Contributors
+## Contributors
 
-    Project Maintainer: Sarah Ribeiro da Silva
+- Project Maintainer: Sarah Ribeiro da Silva
 
-License
+## License
 
 This project is licensed under the MIT License.
