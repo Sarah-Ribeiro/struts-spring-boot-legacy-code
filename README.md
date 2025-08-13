@@ -1,27 +1,88 @@
-# Legacy App Modernization: From Struts 1.3 to Spring Boot
-## Overview
+# Legacy Struts 1.3 Modernization Project
 
-This project is a practical demonstration of modernizing a legacy application, based on the Struts 1.3 demo application. The main goal is to migrate the original source code to a contemporary technology stack, illustrating an effective approach to updating older Java systems.
+## Introduction
+This project is a modernization of the [Struts 1.3 demo application](https://github.com/ShradhaPandey/Struts-1.3-demo-project), originally based on outdated Java and frameworks.  
+The codebase has been re-engineered to leverage **Java 21**, **Spring Boot**, **Thymeleaf**, **Bootstrap**, and **AI-assisted development tools** such as **Claude.ai** and **GitHub Copilot**, making it more maintainable, scalable, and future-proof.
 
-The transformation leverages modern technologies and AI-assisted development tools to optimize the process and ensure a robust and up-to-date result.
-## Technology Stack
+## Table of Contents
+- [Introduction](#introduction)  
+- [Architecture Comparison](#architecture-comparison)  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Goals](#project-goals)  
+- [Contributors](#contributors)  
+- [License](#license)  
 
-The new version of the application was developed using the following technologies:
+## Architecture Comparison
 
-- Backend: Spring Boot - For simplified, robust, and self-contained backend development.
+| **Legacy (Before)**                      | **Modernized (After)**                    |
+|-------------------------------------------|--------------------------------------------|
+| Java 5/6                                   | Java 21                                    |
+| Apache Struts 1.3 MVC framework            | Spring Boot (REST + MVC)                   |
+| JSP pages                                  | Thymeleaf templates                        |
+| CSS manually handled or inline styles      | Bootstrap for responsive design            |
+| XML-heavy configuration                    | Java-based configuration (Spring Boot)     |
+| No AI development tools                    | AI-assisted coding (Claude.ai, GitHub Copilot) |
 
-- Frontend (View Layer): Thymeleaf - A modern template engine, natively integrated into the Spring ecosystem.
+**Before:**  
+The original application relied on the Struts 1.3 MVC framework, with JSP pages, verbose XML configuration, and older Java versions.  
 
-- Styling and UI: Bootstrap - For creating a responsive and visually appealing user interface with minimal effort.
+**After:**  
+The modernized version uses Spring Boot for backend services, Thymeleaf for templating, Bootstrap for styling, and AI tools to assist in writing clean, maintainable code.
 
-## AI-Assisted Development
+---
 
-To accelerate and enhance the migration and development process, the following AI tools were used:
+## Features
+- Migration from **Struts 1.3** to a **Spring Boot** architecture  
+- Upgraded to **Java 21** for modern language features and performance  
+- Responsive UI powered by **Bootstrap**  
+- Server-side rendering with **Thymeleaf**  
+- Code modernization assisted by **Claude.ai** and **GitHub Copilot**  
 
-- Claude.ai: Used for code refactoring, translating business logic from Struts to Spring, and solving complex migration challenges.
+## Technologies Used
+- **Java 21**  
+- **Spring Boot** (backend framework)  
+- **Thymeleaf** (template engine)  
+- **Bootstrap** (frontend styling)  
+- **AI tools:** Claude.ai, GitHub Copilot  
 
-- GitHub Copilot: Employed for real-time code autocompletion, generating boilerplate, and accelerating the implementation of new features.
+## Installation
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/modernized-struts-demo.git
 
-## Motivation
+    Navigate into the project directory:
 
-The goal of this project is to serve as a case study and a practical guide for developers and teams facing the challenge of modernizing legacy applications. It demonstrates how current technologies and AI tools can make this process faster, more efficient, and less error-prone.
+cd modernized-struts-demo
+
+Build and run the application:
+
+    ./mvnw spring-boot:run
+
+Usage
+
+Once the application is running, open your browser and go to:
+
+http://localhost:8080
+
+Project Goals
+
+    Replace outdated Struts 1.3 framework with a modern Spring Boot architecture
+
+    Utilize Java 21 features for cleaner and more efficient code
+
+    Improve maintainability and scalability
+
+    Enhance UI/UX with responsive design
+
+    Leverage AI-assisted development for improved productivity
+
+Contributors
+
+    Project Maintainer: Sarah Ribeiro da Silva
+
+License
+
+This project is licensed under the MIT License.
