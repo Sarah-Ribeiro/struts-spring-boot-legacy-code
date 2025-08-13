@@ -51,7 +51,7 @@ The modernized version uses Spring Boot for backend services, Thymeleaf for temp
 ## Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/modernized-struts-demo.git
+   git clone [https://github.com/your-username/modernized-struts-demo.git](https://github.com/Sarah-Ribeiro/struts-spring-boot-legacy-code.git)
 
     Navigate into the project directory:
 
@@ -65,7 +65,7 @@ Usage
 
 Once the application is running, open your browser and go to:
 
-http://localhost:8080
+http://localhost:8080/username
 
 Project Goals
 
