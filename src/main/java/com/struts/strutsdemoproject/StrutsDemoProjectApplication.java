@@ -1,0 +1,13 @@
+package com.struts.strutsdemoproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StrutsDemoProjectApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(StrutsDemoProjectApplication.class, args);
+    }
+
+}
